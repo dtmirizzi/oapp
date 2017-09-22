@@ -1,21 +1,25 @@
-# Node.js Loginapp
+# OAPP
 
-This is a user login and registration app using Node.js, Express, Passport and Mongoose. It is part of the YouTube series [here](https://www.youtube.com/watch?v=Z1ktxiqyiLA)
+This is a user login and registration app using Node.js, Express, Passport and Mongoose.
 
 ### Version
-1.1.0
+
+1.2.0
+
+### Version Log
+
+9-20-17 Project init ver. 1.2.0
 
 ### Usage
 
 
 ### Installation
 
-Loginapp requires [Node.js](https://nodejs.org/) v4+ to run.
+For dev systems:
 
-```sh
-$ npm install
-```
-
-```sh
-$ npm start
-```
+install mongodb; Base docker image expose port 27017 or use our docker-dev image
+Install Nodejs 6+
+run "npm install" in the cur dir. No errs should occur
+in cur dir run "nodejs app"
+port is set to 8585 feel free to change for dev but do not commit
+to look at the web app goto localhost:8585
